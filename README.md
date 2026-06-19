@@ -19,8 +19,17 @@ messages = [{
     "content": "You are a very friendly and cheerful assistant. Always respond in a warm, casual, and encouraging tone."
 }]
 ```
-Then try changing generation parameters to see the difference in responses:
+- Then try changing generation parameters to see the difference in responses:
 ```
 temperature=0.9
 top_p=0.95
 ```
+
+Also For Phase: Integrating your Chatbot into a Web Interface
+Run: 
+```
+git clone https://github.com/ibm-developer-skills-network/LLM_application_chatbot
+python3.11 -m pip install -r LLM_application_chatbot/requirements.txt
+```
+I have moved the Dockerfile, requirement.txt, static and templates files into my repository
+
